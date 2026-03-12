@@ -1,5 +1,3 @@
-package entradasaida;
-
 /*Um motorista anota a marcação do odômetro do seu
 veículo antes (Km1) e após uma viagem (Km2), bem
 como o número de litros (litros) de combustível gastos.
@@ -12,11 +10,14 @@ veículo (Quilometragem/litros).
 – c) Autonomia do veículo (Consumo * capacidade).
 – d) Custo da viagem (litros * preco).*/
 
+
+package entradasaida;
+
+
 import java.util.Scanner;
 
-class  CustoViagem
-{
-    public static void main(String[] args){
+class CustoViagem {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Informe o Km1: ");
@@ -26,7 +27,7 @@ class  CustoViagem
         float kmReal = km2 - km1;
         System.out.print("Informe o Consumo(L): ");
         int litros = input.nextInt();
-        float consumo = kmReal/litros;
+        float consumo = kmReal / litros;
         System.out.print("Informe a Capacidade do Tanque(L): ");
         int capacidade = input.nextInt();
         float autonomia = consumo * capacidade;
@@ -35,10 +36,10 @@ class  CustoViagem
         float custo = litros * valorGas;
 
         System.out.println("------------------------");
-        System.out.println("Quilometragem rodada: "+kmReal);
-        System.out.println("Consumo :"+consumo);
-        System.out.println("Autonomia do veículo: "+autonomia);
-        System.out.println("Custo da viagem: "+custo);
+        System.out.println("Quilometragem rodada: " + kmReal);
+        System.out.println("Consumo :" + consumo);
+        System.out.println("Autonomia do veículo: " + autonomia);
+        System.out.println("Custo da viagem: " + custo);
 
     }
 }

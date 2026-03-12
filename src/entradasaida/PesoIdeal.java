@@ -1,3 +1,8 @@
+/*Faça um programa que leia o nome, o peso e a
+altura. Calcule o peso ideal para homem e para
+mulher, conforme a fórmula abaixo:
+Homem : (72.7 * altura ) - 58.00
+*/
 package entradasaida;
 
 import java.util.Scanner;
@@ -24,9 +29,9 @@ class PesoIdeal {
         altura = teclado.nextFloat();
 
         if (sexo == 'M' || sexo == 'm') {
-            pesoIdeal = (float)((72.7 * altura) - 58.0);
+            pesoIdeal = (float) ((72.7 * altura) - 58.0);
         } else {
-            pesoIdeal = (float)((62.1 * altura) - 44.7);
+            pesoIdeal = (float) ((62.1 * altura) - 44.7);
         }
 
         System.out.println("\nNome: " + nome);
