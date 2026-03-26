@@ -1,8 +1,8 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 import java.util.Scanner;
 
-class BrincandoComJava {
+class Media {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

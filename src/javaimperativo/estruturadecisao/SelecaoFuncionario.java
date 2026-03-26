@@ -1,4 +1,4 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 /*Uma empresa está contratando novos funcionários.
 Peça o nome do candidato e sua idade. Para ser

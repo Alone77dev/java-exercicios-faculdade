@@ -1,4 +1,4 @@
-package estruturarepeticao;
+package javaimperativo.estruturarepeticao;
 
 /*b) Faça usando o do while*/
 

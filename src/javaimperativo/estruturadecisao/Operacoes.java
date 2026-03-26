@@ -1,4 +1,4 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 /*Fazer um Menu para calcular : Adição, Subtração;
 Multiplicação e Divisão (cuidado na divisão) de dois

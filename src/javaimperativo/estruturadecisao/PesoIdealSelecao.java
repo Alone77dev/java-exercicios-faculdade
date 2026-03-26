@@ -1,32 +1,33 @@
-/*Faça um programa que leia o nome, o peso e a
-altura. Calcule o peso ideal para homem e para
-mulher, conforme a fórmula abaixo:
-Homem : (72.7 * altura ) - 58.00
-*/
-package entradasaida;
+package javaimperativo.estruturadecisao;
+
+/*Altere o 5º exercício proposto (entrada e
+saída) lendo agora o sexo da pessoa e
+mostrando qual a sua altura ideal, dependendo
+da fórmula. Informe também se está abaixo ou
+acima do peso e em quantos kilogramas.*/
 
 import java.util.Scanner;
 
-class PesoIdeal {
+class PesoIdealSelecao {
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         String nome;
         char sexo;
         float peso, altura, pesoIdeal;
 
         System.out.print("Informe seu nome: ");
-        nome = teclado.nextLine();
+        nome = input.nextLine();
 
         System.out.print("Informe seu sexo (M para homem / F para mulher): ");
-        sexo = teclado.next().charAt(0);
+        sexo = input.next().charAt(0);
 
         System.out.print("Informe seu peso: ");
-        peso = teclado.nextFloat();
+        peso = input.nextFloat();
 
         System.out.print("Informe sua altura: ");
-        altura = teclado.nextFloat();
+        altura = input.nextFloat();
 
         if (sexo == 'M' || sexo == 'm') {
             pesoIdeal = (float) ((72.7 * altura) - 58.0);
@@ -37,8 +38,13 @@ class PesoIdeal {
         System.out.println("\nNome: " + nome);
         System.out.println("Peso atual: " + peso);
         System.out.println("Altura: " + altura);
-        System.out.println("Peso ideal: " + pesoIdeal);
+        if (pesoIdeal > peso) {
+            System.out.println("Peso ideal: " + pesoIdeal + "\nVocê está Abaixo dele!!");
+        } else {
+            System.out.println("Peso ideal: " + pesoIdeal);
+        }
 
-        teclado.close();
+        input.close();
+
     }
 }

@@ -3,7 +3,7 @@ despesa) e informe o resultado. Obs : Os valores em
 Real.*/
 
 
-package entradasaida;
+package javaimperativo.entradasaida;
 
 import java.util.Scanner;
 

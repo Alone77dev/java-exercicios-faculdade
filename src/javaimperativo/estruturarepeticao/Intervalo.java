@@ -1,4 +1,4 @@
-package estruturarepeticao;
+package javaimperativo.estruturarepeticao;
 
 /* Leia um número entre 0 e 9 e mostre todos os
 números que contém este número lido no intervalo

@@ -8,7 +8,7 @@ valor da constante Math.PI (mais precisa que
 */
 
 
-package entradasaida;
+package javaimperativo.entradasaida;
 
 import java.util.Scanner;
 import java.lang.Math;

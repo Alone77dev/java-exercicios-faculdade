@@ -1,4 +1,4 @@
-package estruturarepeticao;
+package javaimperativo.estruturarepeticao;
 
 /*Leia n e mostre os números de 1 a n.
 – Obs :

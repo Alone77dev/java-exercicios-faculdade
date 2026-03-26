@@ -1,4 +1,4 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 /*Determinar em que estação do ano um dado mês
 ocorre.

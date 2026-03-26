@@ -1,4 +1,4 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 /*Um número será digitado. Você deverá
 informar se ele é : Positivo, Negativo ou Nulo.

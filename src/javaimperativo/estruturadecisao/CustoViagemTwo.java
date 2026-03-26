@@ -1,4 +1,4 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 import java.util.Scanner;
 

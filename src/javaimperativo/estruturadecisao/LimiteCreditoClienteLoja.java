@@ -1,4 +1,4 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 /*Determine se um cliente de uma loja excedeu o limite
 de crédito. Leia :

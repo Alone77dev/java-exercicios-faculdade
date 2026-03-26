@@ -1,4 +1,4 @@
-package estruturarepeticao;
+package javaimperativo.estruturarepeticao;
 
 /*Leia o valor do investimento p de uma pessoa em
 uma conta poupança, e a taxa de juros r anual (em

@@ -1,4 +1,4 @@
-package estruturarepeticao;
+package javaimperativo.estruturarepeticao;
 
 /*Pedir e somar vários números enquanto não digitarem
 0 (Zero).
@@ -27,8 +27,7 @@ class Somar {
             if (num != 0) {
                 cont++;
             }
-        }
-        while (num != 0);
+        } while (num != 0);
 
         mediaA = soma / cont;
 

@@ -1,4 +1,4 @@
-package estruturasdecisao;
+package javaimperativo.estruturadecisao;
 
 /*Calcule o lucro para a empresa ABC, mostrando se
 houve lucro, prejuízo.*/

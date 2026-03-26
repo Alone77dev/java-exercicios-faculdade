@@ -10,8 +10,7 @@ veículo (Quilometragem/litros).
 – c) Autonomia do veículo (Consumo * capacidade).
 – d) Custo da viagem (litros * preco).*/
 
-
-package entradasaida;
+package javaimperativo.entradasaida;
 
 
 import java.util.Scanner;
