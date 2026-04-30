@@ -1,0 +1,27 @@
+Crie uma classe chamada Candidato com o atributos numero,nome, votos.
+Crie os comportamentos:
+• classificado: recebe a quantidade mínima de votos (votosminimos) e
+retorna se o candidato está classificado (votos >= votosminimos)
+• classificado: Retorna se o candidato está classificado (votos >= 10)
+• mostrarDados: Deve informar o numero, o nome e a quantidade de
+votos.
+Cadastre N Candidatos.
+Depois leia a quantidade de votos mínima. (Exemplo 100)
+Depois mostre a lista de todos os Candidatos cadastrados conforme exemplo:
+Item Numero Nome Votos Classificado
+1 1001 João da Mata 099 Não, Faltou 01 voto(s)
+2 1002 Maria da Silva 150 Sim, Excedeu 50 voto(s)
+3 1003 José da Veiga 120 Sim, Excedeu 20 voto(s)
+...
+Informar no final:
+A soma dos votos = 369
+Média dos Votos = 123
+Mais votado Maria da Silva com 150 votos.
+Obs:
+• Use sobrecarga
+• A média é a soma dos votos dividido pela quantidade de candidatos
+• Não crie variável e nem constante (final) para determinar a quantidade de
+elementos do vetor.
+• O Valor de N, se criado, deve ser lido e utilizado apenas para alocar o
+vetor.
+Utilize para ler : JUtil.readInt () ou JUtil.readFloat () etc.

@@ -1,0 +1,26 @@
+Um Produto contém código, nome, quantidade, unidade, valor unitário e
+métodos/comportamentos:
+ valor total (quantidade * valor unitário)
+ mostrarDados : exibe os atributos e o valortotal.
+Crie um programa que leia vários produtos. A quantidade de produtos
+será informada pelo usuário.
+Depois mostre os dados conforme exemplo abaixo.
+No final mostre:
+ Soma dos valores totais;
+ Nome e valor total do produto mais valioso;
+Exemplo:
+Codigo Nome Quant Unid Valor Total
+1 Computador 1 Unid 1000 1000
+2 Monitor 5 Caixa 300 1500
+2500
+O produto mais valioso é Monitor com R$ 1500.
+Obs:
+ Use sobrecarga
+ Não crie variável e nem constante (final) para determinar a quantidade
+de elementos do vetor.
+ O Valor de N, se criado, deve ser lido e utilizado apenas para alocar o
+vetor.
+ Não utilizar no programa o mostrarDados criado.
+ Utilize para ler : JUtil.readInt () ou JUtil.readFloat () etc. ou Scanner
+ Não use comandos de desvios incondicionais.
+ Use a programação estruturada.

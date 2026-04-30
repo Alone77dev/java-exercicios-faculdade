@@ -8,7 +8,7 @@ package javaimperativo.metodosestaticos;
 
 import java.util.Scanner;
 
-class ParOuImpar {
+class ImparouPar {
 
     public static boolean ehPar(int num) {
         return num % 2 == 0;
