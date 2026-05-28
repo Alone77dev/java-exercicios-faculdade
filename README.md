@@ -55,7 +55,7 @@ Exercícios voltados aos pilares da orientação a objetos:
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/java-exercicios-faculdade.git
+   git clone https://github.com/GelitonFilhoDev/java-exercicios-faculdade.git
    ```
 
 2. **Abra no IntelliJ IDEA** (ou outra IDE de sua preferência).
