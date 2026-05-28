@@ -1,8 +1,10 @@
-package poo.pessoa;
+package poo.modelos.pessoa;
 
 /* Leia a altura de duas pessoas e
 mostre o nome do mais alto e o valor
 da diferença. */
+
+import poo.pessoa.Pessoa;
 
 import java.util.Scanner;
 

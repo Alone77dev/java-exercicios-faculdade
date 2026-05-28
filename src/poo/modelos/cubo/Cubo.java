@@ -1,4 +1,4 @@
-package poo.cubo;
+package poo.modelos.cubo;
 
 class Cubo {
     float aresta;

@@ -1,4 +1,4 @@
-package poo.cubo;
+package poo.modelos.cubo;
 
 /*Crie uma Classe Cubo contendo o atributo
 aresta (a) e os métodos area (6 * a2

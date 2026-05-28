@@ -1,4 +1,4 @@
-package poo.retangulo;
+package poo.modelos.retangulo;
 
 /* Crie uma classe Retângulo contendo os
 atributos base e altura e os métodos área (base *

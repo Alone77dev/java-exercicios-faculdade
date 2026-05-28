@@ -1,4 +1,4 @@
-package poo.retangulo;
+package poo.modelos.retangulo;
 
 class Retangulo {
     float base;

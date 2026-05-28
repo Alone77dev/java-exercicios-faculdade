@@ -1,4 +1,4 @@
-package poo.automovel;
+package poo.modelos.automovel;
 
 class Automovel {
     String chassi;

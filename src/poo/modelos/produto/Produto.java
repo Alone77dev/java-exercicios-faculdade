@@ -1,4 +1,4 @@
-package poo.produto;
+package poo.modelos.produto;
 
 class Produto {
     int codigo;

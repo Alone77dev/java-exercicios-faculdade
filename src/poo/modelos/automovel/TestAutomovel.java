@@ -1,4 +1,4 @@
-package poo.automovel;
+package poo.modelos.automovel;
 
 /*Um Automóvel contem chassi, marca, modelo, capacidade tanque, quantidade atual de
 litros no tanque, consumo (quantos quilômetros faz com um litro. 10 Km/litro, por

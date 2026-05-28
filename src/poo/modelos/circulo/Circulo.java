@@ -1,7 +1,7 @@
-package poo.circulo;
+package poo.modelos.circulo;
 
 class Circulo {
-    float raio = 1;
+    float raio = 0;
 
     public float diametro() {
         return this.raio * 2f;

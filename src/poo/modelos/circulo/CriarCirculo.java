@@ -1,4 +1,4 @@
-package poo.circulo;
+package poo.modelos.circulo;
 
 /* Criar um programa que leia um raio e mostre o
 diâmetro, a área e o comprimento de um círculo.

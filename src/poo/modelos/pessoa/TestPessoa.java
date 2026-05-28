@@ -1,4 +1,4 @@
-package poo.pessoa;
+package poo.modelos.pessoa;
 
 /*Crie um método na classe pessoa chamado
 idade () que recebe um ano e devolve a idade da

@@ -1,4 +1,4 @@
-package poo.pessoa;
+package poo.modelos.pessoa;
 
 class Pessoa {
     int anoNascimento;

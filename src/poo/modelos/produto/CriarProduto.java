@@ -1,4 +1,4 @@
-package poo.produto;
+package poo.modelos.produto;
 
 /*Sistema de Estoque.
 ■ Um produto contém código, nome,
@@ -17,6 +17,8 @@ total.
 ■ * Quanto vale seu estoque (somatório do
 valor total de todos os produtos).
 */
+
+import poo.produto.Produto;
 
 public class CriarProduto {
     public static void main(String[] args) {
