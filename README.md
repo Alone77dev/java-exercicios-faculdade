@@ -16,8 +16,8 @@ src/
 │
 └── poo/
     ├── array/                # Manipulação de arrays e vetores
-    ├── fundamentos/          # Conceitos base de OOP (classes, objetos, atributos)
-    └── modelos/              # Modelagem com herança, encapsulamento e polimorfismo
+    ├── fundamentos/          # Modelagem com herança, encapsulamento e polimorfismo
+    └── modelos/              # Conceitos base de OOP (classes, objetos, atributos)
 ```
 
 ---
