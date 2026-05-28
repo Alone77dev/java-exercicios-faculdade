@@ -18,8 +18,6 @@ total.
 valor total de todos os produtos).
 */
 
-import poo.produto.Produto;
-
 public class CriarProduto {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package poo.array;
+package poo.fundamentos.produto;
 
 
 public class MovimentoEstoque {

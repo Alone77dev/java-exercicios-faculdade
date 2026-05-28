@@ -4,8 +4,6 @@ package poo.modelos.pessoa;
 mostre o nome do mais alto e o valor
 da diferença. */
 
-import poo.pessoa.Pessoa;
-
 import java.util.Scanner;
 
 class Altura {

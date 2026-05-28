@@ -1,4 +1,4 @@
-package poo.array;
+package poo.fundamentos.produto;
 
 abstract class Produto {
     private int codigo;
@@ -6,7 +6,7 @@ abstract class Produto {
     private int quantidade;
     private float custo;
 
-    public Produto (int codigo, String nome, int quantidade, float custo){
+    public Produto(int codigo, String nome, int quantidade, float custo) {
         this.codigo = codigo;
         this.nome = nome;
         this.quantidade = quantidade;
@@ -41,7 +41,7 @@ abstract class Produto {
         this.codigo = codigo;
     }
 
-    public double getValorEstoque(){
+    public double getValorEstoque() {
         return (quantidade * custo);
     }
 
@@ -49,11 +49,11 @@ abstract class Produto {
         this.quantidade += quantidade;
     }
 
-    public boolean validarSaldo(int quantidade){
+    public boolean validarSaldo(int quantidade) {
         return this.quantidade >= quantidade;
     }
 
-    public void baixar(int quantidade){
+    public void baixar(int quantidade) {
         if (validarSaldo(quantidade)) {
             this.quantidade -= quantidade;
         } else {
